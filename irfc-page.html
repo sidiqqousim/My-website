@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IRFC for ICT - Creative Portfolio</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-image: linear-gradient(to bottom, #ff6600, #ff8800);
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.site-title {
+    font-size: 40px;
+}
+
+.site-navigation ul {
+    list-style: none;
+}
+
+.site-navigation ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.site-navigation ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.site-navigation ul li a:hover {
+    color: #ff8800;
+}
+        }
+        .header-title {
+            font-size: 48px;
+            margin: 10px 0;
+            letter-spacing: 2px;
+        }
+        .header-subtitle {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .portfolio-section {
+            padding: 40px;
+            text-align: center;
+        }
+        .portfolio-heading {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+        .portfolio-item {
+            margin: 20px;
+            display: inline-block;
+            vertical-align: top;
+        }
+        .portfolio-image {
+            max-width: 100%;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .portfolio-title {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+        .services-section {
+            padding: 40px;
+            background-color: #f8f8f8;
+            text-align: center;
+        }
+        .services-heading {
+            font-size: 28px;
+            margin-bottom: 40px;
+        }
+        .service-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 40px;
+        }
+        .service {
+            max-width: 300px;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.2s;
+            margin-bottom: 30px;
+        }
+        .service:hover {
+            transform: translateY(-5px);
+        }
+        .service-icon {
+            font-size: 48px;
+            margin-bottom: 20px;
+            color: #ff6600;
+        }
+        .service-title {
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+        .service-description {
+            font-size: 14px;
+            line-height: 1.5;
+        }
+        .about-button {
+            background-color: #fff;
+            color: #ff6600;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .about-button:hover {
+            background-color: #ff6600;
+            color: white;
+        }
+        .animated-elements {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            animation: bounce 2s infinite;
+        }
+@keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+        }
+        .about-section {
+            padding: 40px;
+            background-color: #f8f8f8;
+            text-align: justify;
+        }
+        .about-heading {
+            font-size: 24px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .about-description {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+         /* Your CSS styles for desktop screens go here */
+        body {
+            font-size: 16px;
+        }
+
+        /* Add more CSS styles for larger screens as needed */
+
+        @media screen and (max-width: 768px) {
+            /* CSS styles for smaller screens go here */
+            body {
+                font-size: 14px;
+            }
+        /* Add more styles as needed */
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1 class="site-title">IRFC for ICT</h1>
+        <nav class="site-navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <p class="header-subtitle">
+            Unlocking Creativity in Computer Training, Digital Creation, and Animation
+        </p>
+</header>
+
+    <div class="container">
+        <section class="services-section">
+            <h2 class="services-heading">Our Services Area</h2>
+            <div class="service-list">
+                <a class="service" href="digital-creations.html">
+                    <div class="service-icon">
+                        🎨
+                    </div>
+                    <h3 class="service-title">Digital Creations</h3>
+                    <p class="service-description">
+                        Turn your imagination into stunning digital artworks and designs with our expert guidance.
+                    </p>
+                </a>
+                <a class="service" href="computer-training.html">
+                    <div class="service-icon">
+                        💻
+                    </div>
+                    <h3 class="service-title">Computer Training</h3>
+                    <p class="service-description">
+                        From basics to advanced, our training empowers you to harness the power of technology.
+                    </p>
+                </a>
+                <a class="service" href="facebook-marketing.html">
+                    <div class="service-icon">
+                        📢
+                    </div>
+                    <h3 class="service-title">Facebook Marketing</h3>
+                    <p class="service-description">
+                        Leverage the reach of Facebook to effectively promote your products and services.
+                    </p>
+                </a>
+
+                <a class="service" href="graphic-designing.html">
+                    <div class="service-icon">
+                        🎨
+                    </div>
+                    <h3 class="service-title">Graphic Designing</h3>
+                    <p class="service-description">
+                        Craft visually appealing designs that capture attention and convey your message.
+                    </p>
+                </a>
+                <a class="service" href="affiliate-marketing.html">
+                    <div class="service-icon">
+                        🤝
+                    </div>
+                    <h3 class="service-title">Affiliate Marketing</h3>
+                    <p class="service-description">
+                        Learn how to earn through affiliate marketing and monetize your online presence.
+                    </p>
+                </a>
+                <a class="service" href="video-editing.html">
+                    <div class="service-icon">
+                        🎥
+                    </div>
+                    <h3 class="service-title">Video Editing</h3>
+                    <p class="service-description">
+                        Create professional videos by mastering the art of video editing techniques.
+                    </p>
+                </a>
+                <a class="service" href="cartoon-creation.html">
+                    <div class="service-icon">
+                        🎬
+                    </div>
+                    <h3 class="service-title">Cartoon Creation</h3>
+                    <p class="service-description">
+                        Bring your stories to life through captivating and delightful cartoon animations.
+                    </p>
+                </a>
+            </div>
+        </section>
+
+        <!-- Rest of your content here -->
+    </div>
+    <div class="container">
+        <section class="portfolio-section">
+            <h2 class="portfolio-heading">Portfolio</h2>
+            <div class="portfolio-item">
+                <img class="portfolio-image" src="project1.jpg" alt="Project 1">
+                <p class="portfolio-title">
+                    Project 1
+                </p>
+            </div>
+            <div class="portfolio-item">
+                <img class="portfolio-image" src="project2.jpg" alt="Project 2">
+                <p class="portfolio-title">
+                    Project 2
+                </p>
+            </div>
+            <!-- Add more portfolio items as needed -->
+        </section>
+        <!-- Rest of your content here -->
+    </div>
+    <div class="container">
+        <!-- Add your portfolio content here -->
+        <section class="about-section">
+            <h2 class="about-heading">About IRFC for ICT</h2>
+            <p class="about-description">
+                Discover IRFC for ICT, where technology meets creativity and innovation. We specialize in providing comprehensive computer training, empowering individuals to navigate the digital landscape with confidence. Our expert-led courses cover a wide spectrum, from graphics design that brings imagination to life, to dynamic web development that shapes the online world.
+                <br />Unleash your artistic side with our cartoon maker tool, turning ideas into captivating visuals. Dive into the realm of digital marketing with us, as we guide you through strategies that captivate audiences and drive results.
+                <br />At IRFC for ICT, we're not just an institute; we're a catalyst for your digital aspirations. With a holistic approach, we empower you to master essential skills while exploring your creative potential. Join us and embark on a journey of growth, where technology becomes a canvas for your dreams..
+            </p>
+        </section>
+
+        <h2>Shop</h2>
+        <p>
+            Set up your buying and selling facilities with appropriate technologies.
+        </p>
+    </div>
+    <footer>
+        <p>
+            &copy; 2023 IRFC for ICT. All rights reserved.
+        </p>
+    </footer>
+     <script>
+        function rechargeMobile() {
+            window.location.href = "https://selar.co/m/Sidiq"; // Replace with your actual mobile recharge link
+        }
+        
+        function getData() {
+            window.location.href = "https://selar.co/m/Sidiq"; // Replace with your actual data bundles link
+        }
+        function payBills() {
+            window.location.href = "https://selar.co/m/Sidiq"; // Replace with your actual bill payments link
+        }
+        // JavaScript for making the website responsive
+        window.addEventListener('resize', adjustLayout);
+
+        function adjustLayout() {
+            if (window.innerWidth <= 768) {
+                // Adjust layout for smaller screens
+                document.body.style.fontSize = '14px';
+                // Add more adjustments as needed
+            } else {
+                // Restore default layout for larger screens
+                document.body.style.fontSize = '16px';
+                // Add more adjustments as needed
+            }
+        }
+
+        // Call the function initially
+        adjustLayout();
+    </script>
+</body>
+
+</html>
